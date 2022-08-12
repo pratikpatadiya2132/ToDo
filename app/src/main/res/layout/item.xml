@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:orientation="horizontal"
+    android:layout_marginBottom="18dp"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:id="@+id/desctitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:text="Hello"
+            android:textSize="18dp"
+            android:fontFamily="@font/mmedium"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/desctodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:text="How are you ?"
+            android:textSize="15dp"
+            android:fontFamily="@font/mmedium"
+            android:textColor="@color/text_dark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/descdate"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Tomorrow"
+            android:textSize="15dp"
+            android:fontFamily="@font/mmedium"
+            android:textColor="@color/green"/>
+
+    </LinearLayout>
+
+</LinearLayout>
